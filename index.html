@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>App Dukesa</title>
+    <title>FitTransform - Treinos e Nutrição</title>
 
     <!-- Google Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,29 +13,28 @@
       rel="stylesheet"
     />
 
-    <!-- fonte Icones -->
+    <!-- Font Awesome Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <!-- bootstrap -->
+
+    <!-- Bootstrap 5.3.3 -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- estilo -->
+
+    <!-- Estilo personalizado -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <header id="title">
-      <!-- navbar -->
+      <!-- Navbar -->
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <!-- fim navbar -->
+          <a class="navbar-brand" href="#">FitTransform</a>
 
-          <a class="navbar-brand" href="#">JC Code</a>
-
-          <!-- botões -->
           <button
             class="navbar-toggler"
             type="button"
@@ -48,84 +47,80 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <!-- menu de navegação -->
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#features">Vantagens</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produto</a>
+                <a class="nav-link" href="#pricing">Planos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#footer">Contato</a>
               </li>
             </ul>
           </div>
         </nav>
 
-        <!-- titulo -->
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iste.</h1>
-            <button type="button" class="btn btn-dark btn-lg">
+        <!-- Título Principal (Hero) -->
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1>Transforme seu corpo com treinos personalizados em casa.</h1>
+            <button type="button" class="download-button btn btn-dark btn-lg">
               <i class="fa-brands fa-apple"></i>
-              Download
+              App Store
             </button>
-            <button type="button" class="btn btn-outline-light btn-lg">
-              <i class="fa-brands fa-google-play fa-canvas-square"></i>
-              Download
+            <button type="button" class="download-button btn btn-outline-light btn-lg">
+              <i class="fa-brands fa-google-play"></i>
+              Google Play
             </button>
           </div>
-          <figure class="col-12 col-md-6">
-            <img class="title-image" src="img/Gatinho.png" alt="Gatinho feliz" />
-          </figure>
+          <div class="col-lg-6 text-center">
+            <!-- Dica: substitua por uma imagem de alta qualidade do seu app ou de treino -->
+            <img class="title-image" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600&auto=format&fit=crop" alt="Atleta treinando" />
+          </div>
         </div>
       </div>
     </header>
 
-    <!-- conteúdo principal -->
     <main>
-      <!-- características -->
+      <!-- Características -->
       <section id="features">
         <div class="row">
           <div class="feature-box col-md-4">
-            <i class="icon fa-solid fa-circle-check fa-4x"></i>
-            <h3>Fácil de usar.</h3>
-            <p>Tão fácil de usar que até seu cachorro poderia fazer isso.</p>
+            <i class="icon fa-solid fa-stopwatch fa-4x"></i>
+            <h3>Treinos Otimizados.</h3>
+            <p>Sessões eficientes projetadas para encaixar perfeitamente na sua rotina diária.</p>
           </div>
 
           <div class="feature-box col-md-4">
-            <i class="icon fa-solid fa-bullseye fa-4x"></i>
-            <h3>Os melhores gatos</h3>
-            <p>Temos os melhores gatinhos para você.</p>
+            <i class="icon fa-solid fa-dumbbell fa-4x"></i>
+            <h3>Carga e Progressão.</h3>
+            <p>Evolua sua força de forma estruturada com acompanhamento de alterofilismo e hipertrofia.</p>
           </div>
 
           <div class="feature-box col-md-4">
-            <i class="icon fa-solid fa-heart fa-4x"></i>
-            <h3>Gato ama!!</h3>
-            <p>Encontre o gatinho ideal para você.</p>
+            <i class="icon fa-solid fa-carrot fa-4x"></i>
+            <h3>Nutrição e Dieta.</h3>
+            <p>Planos alimentares inteligentes para potencializar seus resultados físicos.</p>
           </div>
         </div>
       </section>
 
+      <!-- Depoimentos -->
       <section id="testimonials">
-        <!-- Carousel -->
         <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h2>Muito bom, o sistema para encontrar seu gato.</h2>
-              <img class="testimonial-image" src="img/Alisson.png" alt="Alisson" />
-              <em>Juazeiro, Ceará</em>
+              <h2>"Consegui perder 8kg de gordura e ganhei muito condicionamento físico seguindo os planos!"</h2>
+              <img class="testimonial-image" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Marcos Silva" />
+              <em>Mariana Souza — São Paulo, SP</em>
             </div>
 
             <div class="carousel-item">
-              <h2>Meu app é muito bom! um dos melhores do mercado.</h2>
-              <img class="testimonial-image" src="img/Gato-preto.png" alt="gato preto" />
-              <em>Juazeiro, Ceará</em>
+              <h2>"O melhor suporte de treino e dieta que já tive. Os resultados na hipertrofia foram incríveis."</h2>
+              <img class="testimonial-image" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Carlos Eduardo" />
+              <em>Carlos Eduardo — João Pessoa, PB</em>
             </div>
           </div>
 
@@ -147,61 +142,67 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
         </div>
-        <!-- Fim Carousel -->
       </section>
 
-      <section id="press">
-        <img class="press-logo" src="img/1.png" alt="logo 1" />
-        <img class="press-logo" src="img/2.png" alt="logo 2" />
-        <img class="press-logo" src="img/3.png" alt="logo 3" />
-        <img class="press-logo" src="img/4.png" alt="logo 4" />
-      </section>
+      <!-- Press / Marcas parceiras -->
+      <!-- <section id="press">
+        <img class="press-logo" src="img/1.png" alt="Parceiro 1" />
+        <img class="press-logo" src="img/2.png" alt="Parceiro 2" />
+        <img class="press-logo" src="img/3.png" alt="Parceiro 3" />
+        <img class="press-logo" src="img/4.png" alt="Parceiro 4" />
+      </section> -->
 
-      <section class="text-center" id="pricing">
+      <!-- Planos de Preços -->
+      <section id="pricing">
         <div class="container">
-          <h2>Um plano para as necessidades de cada gato</h2>
-          <p>Planos de preços simples e acessíveis para você e seu gato.</p>
+          <h2>Escolha o plano ideal para a sua evolução</h2>
+          <p>Investimento acessível para resultados reais e duradouros.</p>
 
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
+          <div class="row g-3">
+            <!-- Plano Iniciante -->
+            <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h3>Pé duro 2 vezes kk</h3>
+                  <h3>Plano Iniciante</h3>
                 </div>
                 <div class="card-body">
                   <h2>Grátis</h2>
-                  <p>5 curtidas por dia</p>
-                  <p>10 mensagens por dia</p>
-                  <p>40 Curtidas por mês</p>
-                  <button class="btn btn-lg w-100 btn-outline-dark" type="button">inscreva-se</button>
+                  <p>Acesso a 3 treinos básicos</p>
+                  <p>Guia de introdução à dieta</p>
+                  <p>Comunidade de apoio</p>
+                  <button class="btn btn-lg w-100 btn-outline-dark" type="button">Começar Agora</button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+
+            <!-- Plano Avançado -->
+            <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h3>Pé duro</h3>
+                  <h3>Plano Avançado</h3>
                 </div>
                 <div class="card-body">
-                  <h2>R$25,00 / mês</h2>
-                  <p>curtidas ilimitadas</p>
-                  <p>mensagem ilimitadas</p>
-                  <p>Acesso pleno do app</p>
-                  <button class="btn btn-lg w-100 btn-dark" type="button">inscreva-se</button>
+                  <h2>R$49,90 / mês</h2>
+                  <p>Planilhas de treino completas</p>
+                  <p>Cardápio nutricional flexível</p>
+                  <p>Acesso total ao aplicativo</p>
+                  <button class="btn btn-lg w-100 btn-dark" type="button">Assinar Agora</button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+
+            <!-- Plano VIP -->
+            <div class="pricing-column col-lg-4 col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <h3>Cianes</h3>
+                  <h3>Plano VIP</h3>
                 </div>
                 <div class="card-body">
-                  <h2>R$50,00 / mês</h2>
-                  <p>lista de prioridades</p>
-                  <p>curtidas ilimitadas</p>
-                  <p>acesso completo ao app</p>
-                  <button class="btn btn-lg w-100 btn-dark" type="button">inscreva-se</button>
+                  <h2>R$129,90 / mês</h2>
+                  <p>Suporte individual via WhatsApp</p>
+                  <p>Avaliação física personalizada</p>
+                  <p>Ajustes semanais de carga e dieta</p>
+                  <button class="btn btn-lg w-100 btn-dark" type="button">Garantir Vaga</button>
                 </div>
               </div>
             </div>
@@ -209,20 +210,33 @@
         </div>
       </section>
 
+      <!-- CTA (Call to Action) -->
       <section id="cta">
-        <h3>faça agora mesmo o download</h3>
-        <button>Download</button>
-        <button>Download</button>
+        <h3 class="cta-heading">Dê o primeiro passo rumo à sua melhor versão hoje.</h3>
+        <button class="download-button btn btn-dark btn-lg">
+          <i class="fa-brands fa-apple"></i>
+          App Store
+        </button>
+        <button class="download-button btn btn-outline-light btn-lg">
+          <i class="fa-brands fa-google-play"></i>
+          Google Play
+        </button>
       </section>
     </main>
 
     <footer id="footer">
-      <p>&copy; 2023 App Dukesa. Todos os direitos reservados.</p>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-facebook-f"></i>
+      <i class="social-icon fa-brands fa-whatsapp"></i>
+
+      <p>&copy; 2026 FitTransform. Todos os direitos reservados.</p>
     </footer>
 
+    <!-- Bootstrap JS Bundle -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
   </body>
