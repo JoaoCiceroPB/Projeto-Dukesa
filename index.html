@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FitTransform - Treinos e Nutrição</title>
 
-    <!-- Google Fontes -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <!-- Font Awesome Ícones -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <!-- Bootstrap 5.3.3 -->
@@ -24,14 +24,15 @@
       crossorigin="anonymous"
     />
 
-    <!-- Estilo personalizado -->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
+    <!-- Header / Hero Section -->
     <header id="title">
-      <!-- Navbar -->
       <div class="container-fluid">
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="#">FitTransform</a>
 
@@ -39,15 +40,15 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#features">Vantagens</a>
@@ -62,7 +63,7 @@
           </div>
         </nav>
 
-        <!-- Título Principal (Hero) -->
+        <!-- Hero Content -->
         <div class="row align-items-center">
           <div class="col-lg-6">
             <h1>Transforme seu corpo com treinos personalizados em casa.</h1>
@@ -75,16 +76,21 @@
               Google Play
             </button>
           </div>
+
           <div class="col-lg-6 text-center">
-            <!-- Dica: substitua por uma imagem de alta qualidade do seu app ou de treino -->
-            <img class="title-image" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600&auto=format&fit=crop" alt="Atleta treinando" />
+            <img
+              class="title-image"
+              src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600&auto=format&fit=crop"
+              alt="Atleta treinando"
+            />
           </div>
         </div>
       </div>
     </header>
 
+    <!-- Main Content -->
     <main>
-      <!-- Características -->
+      <!-- Features Section -->
       <section id="features">
         <div class="row">
           <div class="feature-box col-md-4">
@@ -107,19 +113,27 @@
         </div>
       </section>
 
-      <!-- Depoimentos -->
+      <!-- Testimonials Section -->
       <section id="testimonials">
         <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>"Consegui perder 8kg de gordura e ganhei muito condicionamento físico seguindo os planos!"</h2>
-              <img class="testimonial-image" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" alt="Marcos Silva" />
+              <img
+                class="testimonial-image"
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
+                alt="Mariana Souza"
+              />
               <em>Mariana Souza — São Paulo, SP</em>
             </div>
 
             <div class="carousel-item">
               <h2>"O melhor suporte de treino e dieta que já tive. Os resultados na hipertrofia foram incríveis."</h2>
-              <img class="testimonial-image" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Carlos Eduardo" />
+              <img
+                class="testimonial-image"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+                alt="Carlos Eduardo"
+              />
               <em>Carlos Eduardo — João Pessoa, PB</em>
             </div>
           </div>
@@ -144,22 +158,14 @@
         </div>
       </section>
 
-      <!-- Press / Marcas parceiras -->
-      <!-- <section id="press">
-        <img class="press-logo" src="img/1.png" alt="Parceiro 1" />
-        <img class="press-logo" src="img/2.png" alt="Parceiro 2" />
-        <img class="press-logo" src="img/3.png" alt="Parceiro 3" />
-        <img class="press-logo" src="img/4.png" alt="Parceiro 4" />
-      </section> -->
-
-      <!-- Planos de Preços -->
+      <!-- Pricing Section -->
       <section id="pricing">
         <div class="container">
           <h2>Escolha o plano ideal para a sua evolução</h2>
           <p>Investimento acessível para resultados reais e duradouros.</p>
 
           <div class="row g-3">
-            <!-- Plano Iniciante -->
+            <!-- Beginner Plan -->
             <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
                 <div class="card-header">
@@ -175,7 +181,7 @@
               </div>
             </div>
 
-            <!-- Plano Avançado -->
+            <!-- Advanced Plan -->
             <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
                 <div class="card-header">
@@ -191,7 +197,7 @@
               </div>
             </div>
 
-            <!-- Plano VIP -->
+            <!-- VIP Plan -->
             <div class="pricing-column col-lg-4 col-md-12">
               <div class="card">
                 <div class="card-header">
@@ -210,7 +216,7 @@
         </div>
       </section>
 
-      <!-- CTA (Call to Action) -->
+      <!-- CTA Section -->
       <section id="cta">
         <h3 class="cta-heading">Dê o primeiro passo rumo à sua melhor versão hoje.</h3>
         <button class="download-button btn btn-dark btn-lg">
@@ -224,11 +230,14 @@
       </section>
     </main>
 
+    <!-- Footer -->
     <footer id="footer">
-      <i class="social-icon fa-brands fa-instagram"></i>
-      <i class="social-icon fa-brands fa-twitter"></i>
-      <i class="social-icon fa-brands fa-facebook-f"></i>
-      <i class="social-icon fa-brands fa-whatsapp"></i>
+      <div class="social-icons-container">
+        <i class="social-icon fa-brands fa-instagram"></i>
+        <i class="social-icon fa-brands fa-twitter"></i>
+        <i class="social-icon fa-brands fa-facebook-f"></i>
+        <i class="social-icon fa-brands fa-whatsapp"></i>
+      </div>
 
       <p>&copy; 2026 FitTransform. Todos os direitos reservados.</p>
     </footer>
