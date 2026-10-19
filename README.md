@@ -16,6 +16,18 @@ Landing page desenvolvida com foco no segmento fitness, estruturada a partir de 
 ## 🎯 Objetivo do Projeto
 Praticar a criação de interfaces web responsivas, adaptando estruturas de layout para o nicho fitness (academias, personal trainers ou plataformas de treino), garantindo uma boa experiência de navegação tanto em dispositivos móveis quanto em desktops.
 
+## 📚 Origem do projeto
+
+Projeto baseado em um exercício do curso Full Stack Turbo (um site de relacionamento de gatos), adaptado por mim para o nicho fitness (FitTransform).
+
+- **O que mudei:** o tema, as cores, os textos e as imagens.
+- **O que manteve:** o layout do curso.
+
+## 🧠 O que aprendi
+
+- Usar o **Bootstrap 5** para montar a página: grid, cards e barra de navegação.
+- Deixar o layout **responsivo** para celular e desktop.
+
 ## 💻 Como Visualizar
 Acesse o projeto online: [Visualizar Projeto Dukesa](https://joaociceropb.github.io/Projeto-Dukesa/)
 
