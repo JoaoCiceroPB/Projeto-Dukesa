@@ -2,6 +2,9 @@
 
 Landing page desenvolvida com foco no segmento fitness, estruturada a partir de estudos práticos utilizando conceitos modernos de design responsivo e componentes de interface.
 
+<img width="1902" height="894" alt="Prévia do Projeto Dukesa" src="https://github.com/user-attachments/assets/74908e4b-84c4-44d1-9024-0a050c5d2436" />
+
+
 ## 🚀 Tecnologias Utilizadas
 
 * **HTML5:** Estruturação semântica das páginas.
@@ -14,7 +17,12 @@ Landing page desenvolvida com foco no segmento fitness, estruturada a partir de 
 Praticar a criação de interfaces web responsivas, adaptando estruturas de layout para o nicho fitness (academias, personal trainers ou plataformas de treino), garantindo uma boa experiência de navegação tanto em dispositivos móveis quanto em desktops.
 
 ## 💻 Como Visualizar
-Você pode acessar a página em funcionamento através do link do GitHub Pages (caso já esteja configurado) ou clonar este repositório em sua máquina:
+Acesse o projeto online: [Visualizar Projeto Dukesa](https://joaociceropb.github.io/Projeto-Dukesa/)
+
+Para rodar na sua máquina, clone o repositório:
 
 ```bash
-git clone [https://github.com/JoaoCiceroPB/Projeto-Dukesa.git](https://github.com/JoaoCiceroPB/Projeto-Dukesa.git)
+git clone https://github.com/JoaoCiceroPB/Projeto-Dukesa.git
+```
+
+Depois, abra o arquivo `index.html` no navegador.
